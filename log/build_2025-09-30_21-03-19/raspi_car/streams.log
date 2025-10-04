@@ -1,0 +1,25 @@
+[1.455s] Invoking command in '/home/stefan/Desktop/ros2_ws/raspi_car': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/raspi_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raspi_car build --build-base /home/stefan/Desktop/ros2_ws/build/raspi_car/build install --record /home/stefan/Desktop/ros2_ws/build/raspi_car/install.log --single-version-externally-managed install_data
+[1.785s] running egg_info
+[1.806s] writing ../build/raspi_car/raspi_car.egg-info/PKG-INFO
+[1.806s] writing dependency_links to ../build/raspi_car/raspi_car.egg-info/dependency_links.txt
+[1.807s] writing entry points to ../build/raspi_car/raspi_car.egg-info/entry_points.txt
+[1.807s] writing requirements to ../build/raspi_car/raspi_car.egg-info/requires.txt
+[1.807s] writing top-level names to ../build/raspi_car/raspi_car.egg-info/top_level.txt
+[1.849s] reading manifest file '../build/raspi_car/raspi_car.egg-info/SOURCES.txt'
+[1.853s] writing manifest file '../build/raspi_car/raspi_car.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.853s] running build_py
+[1.854s] copying raspi_car/led_service.py -> /home/stefan/Desktop/ros2_ws/build/raspi_car/build/lib/raspi_car
+[1.854s] running install
+[1.863s] running install_lib
+[1.884s] copying /home/stefan/Desktop/ros2_ws/build/raspi_car/build/lib/raspi_car/led_service.py -> /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car
+[1.885s] byte-compiling /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car/led_service.py to led_service.cpython-312.pyc
+[1.888s] running install_data
+[1.888s] running install_egg_info
+[1.911s] removing '/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car-0.0.0-py3.12.egg-info' (and everything under it)
+[1.911s] Copying ../build/raspi_car/raspi_car.egg-info to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car-0.0.0-py3.12.egg-info
+[1.912s] running install_scripts
+[2.067s] Installing led_service script to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/raspi_car
+[2.068s] Installing motor_node script to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/raspi_car
+[2.096s] writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/raspi_car/install.log'
+[2.216s] Invoked command in '/home/stefan/Desktop/ros2_ws/raspi_car' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/raspi_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/raspi_car build --build-base /home/stefan/Desktop/ros2_ws/build/raspi_car/build install --record /home/stefan/Desktop/ros2_ws/build/raspi_car/install.log --single-version-externally-managed install_data

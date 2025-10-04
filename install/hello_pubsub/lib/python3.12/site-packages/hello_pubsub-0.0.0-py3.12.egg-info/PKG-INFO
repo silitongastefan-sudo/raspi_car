@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hello-pubsub
+Version: 0.0.0
+Summary: Simple publisher and subscriber demo
+Maintainer: stefan
+Maintainer-email: stefan@example.com
+License: MIT

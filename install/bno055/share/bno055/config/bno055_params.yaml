@@ -1,0 +1,6 @@
+connection_type: i2c
+i2c_bus: 1
+i2c_address: 0x28
+frame_id: bno055
+data_query_frequency: 100.0
+calib_status_frequency: 0.1

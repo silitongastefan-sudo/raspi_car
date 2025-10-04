@@ -1,0 +1,3 @@
+[console_scripts]
+hello_publisher = hello_pubsub.publisher_node:main
+hello_subscriber = hello_pubsub.subscriber_node:main

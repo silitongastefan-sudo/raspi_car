@@ -1,0 +1,5 @@
+  File "/home/stefan/Desktop/~ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car/motor_node.py", line 7
+    class MotorNode(Node)
+                         ^
+SyntaxError: expected ':'
+

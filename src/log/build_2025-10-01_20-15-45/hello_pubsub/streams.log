@@ -1,0 +1,38 @@
+[2.241s] Invoking command in '/home/stefan/Desktop/ros2_ws/src/hello_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hello_pubsub build --build-base /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build install --record /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/install.log --single-version-externally-managed
+[2.700s] running egg_info
+[2.701s] creating ../build/hello_pubsub/hello_pubsub.egg-info
+[2.758s] writing ../build/hello_pubsub/hello_pubsub.egg-info/PKG-INFO
+[2.759s] writing dependency_links to ../build/hello_pubsub/hello_pubsub.egg-info/dependency_links.txt
+[2.759s] writing entry points to ../build/hello_pubsub/hello_pubsub.egg-info/entry_points.txt
+[2.759s] writing requirements to ../build/hello_pubsub/hello_pubsub.egg-info/requires.txt
+[2.760s] writing top-level names to ../build/hello_pubsub/hello_pubsub.egg-info/top_level.txt
+[2.760s] writing manifest file '../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+[2.825s] reading manifest file '../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+[2.826s] writing manifest file '../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+[2.826s] running build
+[2.826s] running build_py
+[2.826s] creating /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build
+[2.826s] creating /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib
+[2.827s] creating /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub
+[2.827s] copying hello_pubsub/publisher_node.py -> /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub
+[2.929s] copying hello_pubsub/__init__.py -> /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub
+[2.930s] copying hello_pubsub/test gpio.py -> /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub
+[2.945s] copying hello_pubsub/subscriber_node.py -> /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub
+[2.946s] running install
+[2.956s] running install_lib
+[2.977s] creating /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+[2.978s] copying /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub/publisher_node.py -> /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+[2.978s] copying /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub/__init__.py -> /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+[2.978s] copying /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub/test gpio.py -> /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+[2.978s] copying /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build/lib/hello_pubsub/subscriber_node.py -> /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+[2.979s] byte-compiling /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub/publisher_node.py to publisher_node.cpython-312.pyc
+[2.987s] byte-compiling /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub/__init__.py to __init__.cpython-312.pyc
+[2.988s] byte-compiling /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub/test gpio.py to test gpio.cpython-312.pyc
+[2.988s] byte-compiling /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub/subscriber_node.py to subscriber_node.cpython-312.pyc
+[2.988s] running install_egg_info
+[3.009s] Copying ../build/hello_pubsub/hello_pubsub.egg-info to /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info
+[3.011s] running install_scripts
+[3.271s] Installing hello_publisher script to /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/hello_pubsub
+[3.272s] Installing hello_subscriber script to /home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/hello_pubsub
+[3.273s] writing list of installed files to '/home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/install.log'
+[3.462s] Invoked command in '/home/stefan/Desktop/ros2_ws/src/hello_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/src/install/hello_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hello_pubsub build --build-base /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/build install --record /home/stefan/Desktop/ros2_ws/src/build/hello_pubsub/install.log --single-version-externally-managed

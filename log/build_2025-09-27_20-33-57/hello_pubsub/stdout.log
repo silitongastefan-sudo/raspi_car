@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/hello_pubsub/hello_pubsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_pubsub/hello_pubsub.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_pubsub/hello_pubsub.egg-info/entry_points.txt
+writing requirements to ../../build/hello_pubsub/hello_pubsub.egg-info/requires.txt
+writing top-level names to ../../build/hello_pubsub/hello_pubsub.egg-info/top_level.txt
+reading manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hello_pubsub/publisher_node.py -> /home/stefan/Desktop/ros2_ws/build/hello_pubsub/build/lib/hello_pubsub
+running install
+running install_lib
+copying /home/stefan/Desktop/ros2_ws/build/hello_pubsub/build/lib/hello_pubsub/publisher_node.py -> /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub
+byte-compiling /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub/publisher_node.py to publisher_node.cpython-312.pyc
+running install_egg_info
+removing '/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hello_pubsub/hello_pubsub.egg-info to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hello_publisher script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub
+Installing hello_subscriber script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub
+writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log'

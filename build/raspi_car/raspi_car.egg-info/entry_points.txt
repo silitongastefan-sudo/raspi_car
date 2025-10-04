@@ -1,0 +1,4 @@
+[console_scripts]
+led_control = raspi_car.led_control:main
+led_service = raspi_car.led_service:main
+motor_node = raspi_car.motor_node:main

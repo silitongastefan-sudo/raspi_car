@@ -1,0 +1,4 @@
+source;share/raspi_car/hook/pythonpath.dsv
+source;share/raspi_car/hook/pythonpath.sh
+source;share/raspi_car/hook/ament_prefix_path.dsv
+source;share/raspi_car/hook/ament_prefix_path.sh

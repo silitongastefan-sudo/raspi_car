@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.001061] (hello_pubsub) JobQueued: {'identifier': 'hello_pubsub', 'dependencies': OrderedDict()}
+[0.001261] (raspi_car) JobQueued: {'identifier': 'raspi_car', 'dependencies': OrderedDict()}
+[0.001542] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.038311] (hello_pubsub) JobStarted: {'identifier': 'hello_pubsub'}
+[0.051330] (raspi_car) JobStarted: {'identifier': 'raspi_car'}
+[0.099702] (-) TimerEvent: {}
+[0.200340] (-) TimerEvent: {}
+[0.301912] (-) TimerEvent: {}
+[0.402306] (-) TimerEvent: {}
+[0.502950] (-) TimerEvent: {}
+[0.603382] (-) TimerEvent: {}
+[0.703714] (-) TimerEvent: {}
+[0.804240] (-) TimerEvent: {}
+[0.904807] (-) TimerEvent: {}
+[1.005632] (-) TimerEvent: {}
+[1.106545] (-) TimerEvent: {}
+[1.207244] (-) TimerEvent: {}
+[1.307967] (-) TimerEvent: {}
+[1.410915] (-) TimerEvent: {}
+[1.511317] (-) TimerEvent: {}
+[1.611940] (-) TimerEvent: {}
+[1.712311] (-) TimerEvent: {}
+[1.812730] (-) TimerEvent: {}
+[1.913998] (-) TimerEvent: {}
+[2.014707] (-) TimerEvent: {}
+[2.115232] (-) TimerEvent: {}
+[2.216039] (-) TimerEvent: {}
+[2.316375] (-) TimerEvent: {}
+[2.416738] (-) TimerEvent: {}
+[2.517066] (-) TimerEvent: {}
+[2.619093] (-) TimerEvent: {}
+[2.722326] (-) TimerEvent: {}
+[2.823669] (-) TimerEvent: {}
+[2.877559] (raspi_car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/raspi_car', 'build', '--build-base', '/home/stefan/Desktop/ros2_ws/build/raspi_car/build', 'install', '--record', '/home/stefan/Desktop/ros2_ws/build/raspi_car/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/stefan/Desktop/ros2_ws/raspi_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'stefan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/stefan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1916', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'stefan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'stefan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/stefan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/stefan/.local/bin:/home/stefan/.local/bin', 'SESSION_MANAGER': 'local/stefan-desktop:@/tmp/.ICE-unix/1916,unix/stefan-desktop:/tmp/.ICE-unix/1916', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2187d08_f4f2_4bd2_98d2_9255118363e9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install/raspi_car:/home/stefan/Desktop/ros2_ws/install/hello_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/stefan/Desktop/ros2_ws/build/raspi_car', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/stefan/Desktop/ros2_ws/build/raspi_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.898037] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/stefan/Desktop/ros2_ws/build/bno055/build', 'install', '--record', '/home/stefan/Desktop/ros2_ws/build/bno055/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/stefan/Desktop/ros2_ws/src/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'stefan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/stefan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1916', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'stefan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'stefan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/stefan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/stefan/.local/bin:/home/stefan/.local/bin', 'SESSION_MANAGER': 'local/stefan-desktop:@/tmp/.ICE-unix/1916,unix/stefan-desktop:/tmp/.ICE-unix/1916', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2187d08_f4f2_4bd2_98d2_9255118363e9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install/raspi_car:/home/stefan/Desktop/ros2_ws/install/hello_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/stefan/Desktop/ros2_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/stefan/Desktop/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.901735] (hello_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hello_pubsub', 'build', '--build-base', '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/build', 'install', '--record', '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/stefan/Desktop/ros2_ws/src/hello_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'stefan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/stefan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1916', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'stefan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'stefan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/stefan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/stefan/.local/bin:/home/stefan/.local/bin', 'SESSION_MANAGER': 'local/stefan-desktop:@/tmp/.ICE-unix/1916,unix/stefan-desktop:/tmp/.ICE-unix/1916', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d2187d08_f4f2_4bd2_98d2_9255118363e9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/stefan/Desktop/ros2_ws/install/raspi_car:/home/stefan/Desktop/ros2_ws/install/hello_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/stefan/Desktop/ros2_ws/build/hello_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=26a90336fde5b1bb676fa21d68ddd42c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.923765] (-) TimerEvent: {}
+[3.026015] (-) TimerEvent: {}
+[3.131366] (-) TimerEvent: {}
+[3.231748] (-) TimerEvent: {}
+[3.305924] (hello_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.311473] (raspi_car) StdoutLine: {'line': b'running egg_info\n'}
+[3.324628] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[3.324905] (bno055) StdoutLine: {'line': b'creating ../../build/bno055/bno055.egg-info\n'}
+[3.326960] (hello_pubsub) StdoutLine: {'line': b'writing ../../build/hello_pubsub/hello_pubsub.egg-info/PKG-INFO\n'}
+[3.327461] (hello_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/hello_pubsub/hello_pubsub.egg-info/dependency_links.txt\n'}
+[3.330720] (hello_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/hello_pubsub/hello_pubsub.egg-info/entry_points.txt\n'}
+[3.331293] (hello_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/hello_pubsub/hello_pubsub.egg-info/requires.txt\n'}
+[3.331807] (-) TimerEvent: {}
+[3.332695] (hello_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/hello_pubsub/hello_pubsub.egg-info/top_level.txt\n'}
+[3.333057] (raspi_car) StdoutLine: {'line': b'writing ../build/raspi_car/raspi_car.egg-info/PKG-INFO\n'}
+[3.339085] (raspi_car) StdoutLine: {'line': b'writing dependency_links to ../build/raspi_car/raspi_car.egg-info/dependency_links.txt\n'}
+[3.339448] (raspi_car) StdoutLine: {'line': b'writing entry points to ../build/raspi_car/raspi_car.egg-info/entry_points.txt\n'}
+[3.339536] (raspi_car) StdoutLine: {'line': b'writing requirements to ../build/raspi_car/raspi_car.egg-info/requires.txt\n'}
+[3.339615] (raspi_car) StdoutLine: {'line': b'writing top-level names to ../build/raspi_car/raspi_car.egg-info/top_level.txt\n'}
+[3.354918] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[3.355211] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[3.356389] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[3.357094] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[3.357333] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[3.358929] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.405452] (raspi_car) StdoutLine: {'line': b"reading manifest file '../build/raspi_car/raspi_car.egg-info/SOURCES.txt'\n"}
+[3.405981] (hello_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'\n"}
+[3.409463] (raspi_car) StdoutLine: {'line': b"writing manifest file '../build/raspi_car/raspi_car.egg-info/SOURCES.txt'\n"}
+[3.410383] (raspi_car) StdoutLine: {'line': b'running build\n'}
+[3.411804] (hello_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'\n"}
+[3.412259] (raspi_car) StdoutLine: {'line': b'running build_py\n'}
+[3.412459] (raspi_car) StdoutLine: {'line': b'running install\n'}
+[3.413942] (hello_pubsub) StdoutLine: {'line': b'running build\n'}
+[3.414331] (hello_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.414447] (hello_pubsub) StdoutLine: {'line': b'running install\n'}
+[3.427866] (hello_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.429981] (raspi_car) StdoutLine: {'line': b'running install_lib\n'}
+[3.431920] (-) TimerEvent: {}
+[3.451812] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.452327] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.452455] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[3.453922] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.454247] (bno055) StdoutLine: {'line': b'running build\n'}
+[3.454376] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[3.454470] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build\n'}
+[3.455256] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib\n'}
+[3.455533] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.456186] (bno055) StdoutLine: {'line': b'copying bno055/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.456322] (bno055) StdoutLine: {'line': b'copying bno055/bno055.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.456430] (bno055) StdoutLine: {'line': b'copying bno055/registers.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055\n'}
+[3.456526] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.456611] (bno055) StdoutLine: {'line': b'copying bno055/sensor/SensorService.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.460614] (bno055) StdoutLine: {'line': b'copying bno055/sensor/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor\n'}
+[3.462946] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.463328] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/exceptions.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.467947] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling\n'}
+[3.468690] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.469093] (bno055) StdoutLine: {'line': b'copying bno055/connectors/i2c.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.469284] (bno055) StdoutLine: {'line': b'copying bno055/connectors/uart.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.469462] (bno055) StdoutLine: {'line': b'copying bno055/connectors/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.471430] (bno055) StdoutLine: {'line': b'copying bno055/connectors/Connector.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors\n'}
+[3.472498] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.472826] (bno055) StdoutLine: {'line': b'copying bno055/params/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.476937] (bno055) StdoutLine: {'line': b'copying bno055/params/NodeParameters.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params\n'}
+[3.477286] (bno055) StdoutLine: {'line': b'running install\n'}
+[3.477493] (hello_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.484660] (raspi_car) StdoutLine: {'line': b'running install_data\n'}
+[3.486300] (raspi_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.486405] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[3.501272] (hello_pubsub) StdoutLine: {'line': b"removing '/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.501877] (hello_pubsub) StdoutLine: {'line': b'Copying ../../build/hello_pubsub/hello_pubsub.egg-info to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info\n'}
+[3.508004] (hello_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.511674] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.512091] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.512293] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.512466] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor\n'}
+[3.512681] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.512900] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.513912] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling\n'}
+[3.514142] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.514239] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.514357] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.514587] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.514701] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors\n'}
+[3.514808] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.516236] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.516411] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params\n'}
+[3.516513] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.516603] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/registers.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.516692] (bno055) StdoutLine: {'line': b'copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/bno055.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055\n'}
+[3.518054] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-312.pyc\n'}
+[3.518356] (raspi_car) StdoutLine: {'line': b"removing '/home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.519115] (raspi_car) StdoutLine: {'line': b'Copying ../build/raspi_car/raspi_car.egg-info to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/python3.12/site-packages/raspi_car-0.0.0-py3.12.egg-info\n'}
+[3.523257] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__init__.py to __init__.cpython-312.pyc\n'}
+[3.524158] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-312.pyc\n'}
+[3.524547] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/__init__.py to __init__.cpython-312.pyc\n'}
+[3.525213] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/i2c.py to i2c.cpython-312.pyc\n'}
+[3.526137] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/uart.py to uart.cpython-312.pyc\n'}
+[3.527891] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/__init__.py to __init__.cpython-312.pyc\n'}
+[3.528925] (raspi_car) StdoutLine: {'line': b'running install_scripts\n'}
+[3.529184] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/Connector.py to Connector.cpython-312.pyc\n'}
+[3.529322] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/__init__.py to __init__.cpython-312.pyc\n'}
+[3.531643] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-312.pyc\n'}
+[3.532049] (-) TimerEvent: {}
+[3.533242] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__init__.py to __init__.cpython-312.pyc\n'}
+[3.533623] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/registers.py to registers.cpython-312.pyc\n'}
+[3.533869] (bno055) StdoutLine: {'line': b'byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055.py to bno055.cpython-312.pyc\n'}
+[3.536352] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[3.537722] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index\n'}
+[3.538525] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index\n'}
+[3.538729] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[3.538880] (bno055) StdoutLine: {'line': b'copying resource/bno055 -> /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[3.538997] (bno055) StdoutLine: {'line': b'copying package.xml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055\n'}
+[3.539078] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/launch\n'}
+[3.539164] (bno055) StdoutLine: {'line': b'copying launch/bno055.launch.py -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/launch\n'}
+[3.542925] (bno055) StdoutLine: {'line': b'creating /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.543305] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.543455] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_test.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.546956] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_i2c.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config\n'}
+[3.547414] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.584680] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info\n'}
+[3.586451] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[3.632202] (-) TimerEvent: {}
+[3.732951] (-) TimerEvent: {}
+[3.741483] (hello_pubsub) StdoutLine: {'line': b'Installing hello_publisher script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub\n'}
+[3.781214] (raspi_car) StdoutLine: {'line': b'Installing led_control script to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/raspi_car\n'}
+[3.781592] (raspi_car) StdoutLine: {'line': b'Installing led_service script to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/raspi_car\n'}
+[3.781787] (raspi_car) StdoutLine: {'line': b'Installing motor_node script to /home/stefan/Desktop/ros2_ws/install/raspi_car/lib/raspi_car\n'}
+[3.782305] (raspi_car) StdoutLine: {'line': b"writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/raspi_car/install.log'\n"}
+[3.833064] (-) TimerEvent: {}
+[4.075935] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/stefan/Desktop/ros2_ws/install/bno055/lib/bno055\n'}
+[4.076359] (-) TimerEvent: {}
+[4.076526] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/bno055/install.log'\n"}
+[4.076703] (raspi_car) CommandEnded: {'returncode': 0}
+[4.077394] (hello_pubsub) StdoutLine: {'line': b'Installing hello_subscriber script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub\n'}
+[4.077647] (hello_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log'\n"}
+[4.176581] (-) TimerEvent: {}
+[4.277190] (-) TimerEvent: {}
+[4.377603] (-) TimerEvent: {}
+[4.477960] (-) TimerEvent: {}
+[4.578270] (-) TimerEvent: {}
+[4.678675] (-) TimerEvent: {}
+[4.724584] (raspi_car) JobEnded: {'identifier': 'raspi_car', 'rc': 0}
+[4.727270] (bno055) CommandEnded: {'returncode': 0}
+[4.741998] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[4.743158] (hello_pubsub) CommandEnded: {'returncode': 0}
+[4.764573] (hello_pubsub) JobEnded: {'identifier': 'hello_pubsub', 'rc': 0}
+[4.766296] (-) EventReactorShutdown: {}

@@ -1,0 +1,86 @@
+[2.898s] Invoking command in '/home/stefan/Desktop/ros2_ws/src/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/stefan/Desktop/ros2_ws/build/bno055/build install --record /home/stefan/Desktop/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
+[3.323s] running egg_info
+[3.323s] creating ../../build/bno055/bno055.egg-info
+[3.354s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[3.354s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[3.355s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[3.356s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[3.356s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[3.358s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[3.451s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[3.451s] adding license file 'LICENSE'
+[3.451s] adding license file 'AUTHORS'
+[3.453s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[3.453s] running build
+[3.453s] running build_py
+[3.453s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build
+[3.454s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib
+[3.455s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055
+[3.455s] copying bno055/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055
+[3.455s] copying bno055/bno055.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055
+[3.455s] copying bno055/registers.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055
+[3.455s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor
+[3.455s] copying bno055/sensor/SensorService.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor
+[3.459s] copying bno055/sensor/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor
+[3.462s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[3.462s] copying bno055/error_handling/exceptions.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[3.467s] copying bno055/error_handling/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[3.467s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors
+[3.468s] copying bno055/connectors/i2c.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors
+[3.468s] copying bno055/connectors/uart.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors
+[3.468s] copying bno055/connectors/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors
+[3.470s] copying bno055/connectors/Connector.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors
+[3.471s] creating /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params
+[3.471s] copying bno055/params/__init__.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params
+[3.476s] copying bno055/params/NodeParameters.py -> /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params
+[3.476s] running install
+[3.485s] running install_lib
+[3.510s] creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[3.511s] creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[3.511s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[3.511s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[3.511s] creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[3.511s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[3.512s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[3.513s] creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[3.513s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[3.513s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[3.513s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[3.513s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[3.514s] creating /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[3.515s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[3.515s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[3.515s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/__init__.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[3.515s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/registers.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[3.515s] copying /home/stefan/Desktop/ros2_ws/build/bno055/build/lib/bno055/bno055.py -> /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[3.517s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-312.pyc
+[3.522s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__init__.py to __init__.cpython-312.pyc
+[3.523s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-312.pyc
+[3.524s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/__init__.py to __init__.cpython-312.pyc
+[3.524s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/i2c.py to i2c.cpython-312.pyc
+[3.525s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/uart.py to uart.cpython-312.pyc
+[3.526s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/__init__.py to __init__.cpython-312.pyc
+[3.528s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/Connector.py to Connector.cpython-312.pyc
+[3.528s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/__init__.py to __init__.cpython-312.pyc
+[3.530s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-312.pyc
+[3.532s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__init__.py to __init__.cpython-312.pyc
+[3.532s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/registers.py to registers.cpython-312.pyc
+[3.532s] byte-compiling /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055.py to bno055.cpython-312.pyc
+[3.536s] running install_data
+[3.537s] creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index
+[3.537s] creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index
+[3.537s] creating /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index/packages
+[3.537s] copying resource/bno055 -> /home/stefan/Desktop/ros2_ws/install/bno055/share/ament_index/resource_index/packages
+[3.537s] copying package.xml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055
+[3.538s] creating /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/launch
+[3.538s] copying launch/bno055.launch.py -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/launch
+[3.542s] creating /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config
+[3.542s] copying bno055/params/bno055_params.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config
+[3.542s] copying bno055/params/bno055_params_test.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config
+[3.546s] copying bno055/params/bno055_params_i2c.yaml -> /home/stefan/Desktop/ros2_ws/install/bno055/share/bno055/config
+[3.546s] running install_egg_info
+[3.583s] Copying ../../build/bno055/bno055.egg-info to /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info
+[3.585s] running install_scripts
+[4.075s] Installing bno055 script to /home/stefan/Desktop/ros2_ws/install/bno055/lib/bno055
+[4.075s] writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/bno055/install.log'
+[4.726s] Invoked command in '/home/stefan/Desktop/ros2_ws/src/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/stefan/Desktop/ros2_ws/build/bno055/build install --record /home/stefan/Desktop/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
