@@ -5,7 +5,7 @@ from std_msgs.msg import Bool
 class LedServiceServer(Node):
     def __init__(self):
         super().__init__('led_service_server')
-        self.led_on= False
+        self.led_on= True
         self.srv = self.create_service(SetBool, 'toggle_led', self.toggle_led_callback)
         self.publisher_ = self.create_publisher(Bool, 'led_state',10)
         self.get_logger().info('led service ready, call "toggle_led" with True/False')

@@ -13,6 +13,7 @@ setup.py
 ../../build/bno055/bno055.egg-info/zip-safe
 bno055/__init__.py
 bno055/bno055.py
+bno055/bno055_logger.py
 bno055/registers.py
 bno055/connectors/Connector.py
 bno055/connectors/__init__.py

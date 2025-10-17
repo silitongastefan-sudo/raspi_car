@@ -12,6 +12,7 @@ raspi_car/__init__.py
 raspi_car/led_control.py
 raspi_car/led_service.py
 raspi_car/motor_node.py
+raspi_car/motor_pid.py
 resource/raspi_car
 test/test_copyright.py
 test/test_flake8.py

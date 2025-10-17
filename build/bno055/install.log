@@ -1,5 +1,6 @@
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__init__.py
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055.py
+/home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055_logger.py
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/registers.py
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/SensorService.py
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__init__.py
@@ -13,6 +14,7 @@
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/NodeParameters.py
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__pycache__/__init__.cpython-312.pyc
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__pycache__/bno055.cpython-312.pyc
+/home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__pycache__/bno055_logger.cpython-312.pyc
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__pycache__/registers.cpython-312.pyc
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__pycache__/SensorService.cpython-312.pyc
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__pycache__/__init__.cpython-312.pyc
@@ -38,3 +40,4 @@
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info/PKG-INFO
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info/requires.txt
 /home/stefan/Desktop/ros2_ws/install/bno055/lib/bno055/bno055
+/home/stefan/Desktop/ros2_ws/install/bno055/lib/bno055/bno055_logger

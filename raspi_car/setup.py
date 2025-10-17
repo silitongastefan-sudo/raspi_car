@@ -23,6 +23,8 @@ setup(
         'motor_node = raspi_car.motor_node:main',
         'led_service = raspi_car.led_service:main',
         'led_control = raspi_car.led_control:main',
+        'motor_pid = raspi_car.motor_pid:main',
+        'dead_reckoning = raspi_car.dead_reckoning:main',
         ],
     },
 )

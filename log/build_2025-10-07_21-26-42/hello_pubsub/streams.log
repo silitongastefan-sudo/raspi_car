@@ -1,0 +1,21 @@
+[2.276s] Invoking command in '/home/stefan/Desktop/ros2_ws/src/hello_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/hello_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_pubsub build --build-base /home/stefan/Desktop/ros2_ws/build/hello_pubsub/build install --record /home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log --single-version-externally-managed
+[2.758s] running egg_info
+[2.773s] writing ../../build/hello_pubsub/hello_pubsub.egg-info/PKG-INFO
+[2.773s] writing dependency_links to ../../build/hello_pubsub/hello_pubsub.egg-info/dependency_links.txt
+[2.774s] writing entry points to ../../build/hello_pubsub/hello_pubsub.egg-info/entry_points.txt
+[2.774s] writing requirements to ../../build/hello_pubsub/hello_pubsub.egg-info/requires.txt
+[2.774s] writing top-level names to ../../build/hello_pubsub/hello_pubsub.egg-info/top_level.txt
+[2.821s] reading manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+[2.822s] writing manifest file '../../build/hello_pubsub/hello_pubsub.egg-info/SOURCES.txt'
+[2.822s] running build
+[2.822s] running build_py
+[2.822s] running install
+[2.832s] running install_lib
+[2.855s] running install_egg_info
+[2.878s] removing '/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[2.878s] Copying ../../build/hello_pubsub/hello_pubsub.egg-info to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages/hello_pubsub-0.0.0-py3.12.egg-info
+[2.882s] running install_scripts
+[3.061s] Installing hello_publisher script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub
+[3.061s] Installing hello_subscriber script to /home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/hello_pubsub
+[3.064s] writing list of installed files to '/home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log'
+[3.264s] Invoked command in '/home/stefan/Desktop/ros2_ws/src/hello_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/stefan/Desktop/ros2_ws/build/hello_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefan/Desktop/ros2_ws/install/hello_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello_pubsub build --build-base /home/stefan/Desktop/ros2_ws/build/hello_pubsub/build install --record /home/stefan/Desktop/ros2_ws/build/hello_pubsub/install.log --single-version-externally-managed
