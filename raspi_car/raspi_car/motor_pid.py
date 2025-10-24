@@ -21,7 +21,7 @@ class MotorNode(Node):
 
         # PID parameters
         self.kp = -0.8
-        self.ki = -1
+        self.ki = -1.5
         self.kd = 0
         self.prev_error = 0.0
         self.integral = 0.0
@@ -98,7 +98,7 @@ class MotorNode(Node):
             enB.value = left_speed
 
             self.get_logger().info(
-                f"[Drive] IMU z={self.current_ang_vel_z:.3f}, Corr={correction:.3f}, L={left_speed:.2f}, R={right_speed:.2f}"
+                f"[Drive] IMU z={self.current_ang_vel_z:.3f}, Corr={correction:.3f}, L={right_speed:.2f}, R={left_speed:.2f}"
             )
 
         elif self.angular_z > 0:  # Manual turn left
